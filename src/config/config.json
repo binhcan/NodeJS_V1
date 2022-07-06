@@ -1,0 +1,28 @@
+{
+  "development": {
+    "username": "sa",
+    "password": "Mtv@2020",
+    "database": "Nodejs",
+    "host": "10.120.112.215",
+    "dialect": "mssql",
+    "logging": false,
+    "query": {
+      "raw": true
+    },
+    "timezone": "+07:00"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
